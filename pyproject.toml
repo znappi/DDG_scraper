@@ -1,0 +1,10 @@
+[project]
+name = "duckduckgo_async"
+version = "0.1.0"
+description = "Асинхронная библиотека для парсинга DuckDuckGo"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx[http2]>=0.27.0",
+    "beautifulsoup4>=4.12.0"
+]
